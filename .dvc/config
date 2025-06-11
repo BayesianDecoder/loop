@@ -1,0 +1,7 @@
+[core]
+    remote = myremote3dvc
+['remote "myremote"']
+    url = s3://looprecommedner
+    endpointurl = https://s3.ap-south-1.amazonaws.com
+['remote "myremote3dvc"']
+    url = s3://looprecommedner
