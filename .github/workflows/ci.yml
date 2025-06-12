@@ -84,8 +84,8 @@ jobs:
            aws deploy create-deployment \
              --application-name hybridrecommendersystem \
              --deployment-config-name CodeDeployDefault.AllAtOnce \
-             --deployment-group-name hybridrecyscdeploymentgroup \
-             --s3-location bucket=hybridrecyscdeploymentbucket,key=deployment.zip,bundleType=zip \
+             --deployment-group-name hybridrecycsdeploymentgroup \
+             --s3-location bucket=hybridrecycsdeploymentbucket,key=deployment.zip,bundleType=zip \
              --file-exists-behavior OVERWRITE \
              --region ap-south-1
 
